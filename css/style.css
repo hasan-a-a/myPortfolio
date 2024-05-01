@@ -24,3 +24,26 @@ body {
     height: auto;
 }
 /* Nav */
+header {
+    box-shadow: 0 4px 17px rgba(0,0,0, .1);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    opacity: 0;
+    animation: leftSideAni 1s ease forwards;
+}
+.logo a {
+    color : #000;
+    text-decoration: none;
+}
