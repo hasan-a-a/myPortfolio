@@ -164,7 +164,8 @@ li a:hover {
 .dark-mode .logo a, 
 .dark-mode ul li a, 
 .dark-mode .main h3, 
-.dark-mode .main h1 {
+.dark-mode .main h1,
+.dark-mode .paragraph{
     color: #fff;
 }
 .dark-mode ul li a.active, .dark-mode ul li a:hover {
@@ -184,7 +185,7 @@ li a:hover {
     background: var(--primary-dark);
 }
 .paragraph{
-    color: black !important;
+    color: black ;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -338,11 +339,5 @@ li a:hover {
         margin-top: 2rem;
     }
 }
-/* @media (prefers-color-scheme){
-    .paragraph{
-        color: white;
-    }
-} */
-
 
 
